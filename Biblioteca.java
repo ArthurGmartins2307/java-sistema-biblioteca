@@ -20,14 +20,14 @@ class Biblioteca{
 
     public void listarLivros(){
         for(int i = 0; i < quantidadeLivros; i++){
+            System.out.println("--------------------");
             livros[i].mostrarLivro();
-            System.out.println("---------------");
         }
     }
     public void listarUsuarios(){
         for(int i = 0; i < quantidadeUsuarios; i++){
+            System.out.println("--------------------");
             usuarios[i].mostrarUsuario();
-            System.out.println("---------------");
         }
     }
 
