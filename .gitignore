@@ -1,0 +1,12 @@
+# Arquivos compilados do Java
+*.class
+
+# VS Code
+.vscode/
+
+# IntelliJ IDEA
+.idea/
+
+# Pasta de saída
+bin/
+out/
